@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Martial Arts Club</string>
+    <string name="add_martial_art">Add Martial Art</string>
+    <string name="delete_martial_art">Delete Martial Art</string>
+    <string name="update_the_martial_arts">Update the Martial Arts</string>
+    <string name="reset_martial_arts_price">Reset Martial Arts Price</string>
+</resources>
