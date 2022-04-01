@@ -2,6 +2,7 @@ package com.example.martialartsclub;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -44,6 +45,7 @@ public class AddMartialArtActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 addMartialArtObjectToDatabase();
+                finish();
                 Toast.makeText(AddMartialArtActivity.this, "Martial Art added.", Toast.LENGTH_SHORT).show();
             }
         });
